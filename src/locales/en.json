@@ -1,0 +1,9 @@
+{
+  "appName": "Sample Breweries",
+  "navigation": {
+    "home": "Home",
+    "addBrewery": "Add Brewery",
+    "editBrewery": "Edit Brewery",
+    "showBrewery": "Show Brewery"
+  }
+}
