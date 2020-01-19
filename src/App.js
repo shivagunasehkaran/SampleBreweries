@@ -6,8 +6,10 @@ import {createStackNavigator} from 'react-navigation-stack';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 
 import theme from './themes';
-import Home from './views/Home';
-import ShowBrewery from './views/ShowBrewery';
+import Home from './views/screens/Home';
+import ShowBrewery from './views/screens/ShowBrewery';
+import AddBrewery from './views/screens/AddBrewery';
+import EditBrewery from './views/screens/EditBrewery';
 
 const HomeScreen = createStackNavigator({
     Home: {
@@ -23,13 +25,13 @@ const ShowBreweryScreen = createStackNavigator({
 
 const AddBreweryScreen = createStackNavigator({
     AddBrewery: {
-        screen: ShowBrewery,
+        screen: AddBrewery,
     },
 });
 
 const EditBreweryScreen = createStackNavigator({
     EditBrewery: {
-        screen: ShowBrewery,
+        screen: EditBrewery,
     },
 });
 
