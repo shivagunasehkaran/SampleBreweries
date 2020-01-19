@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
-import theme from '../../themes';
+import theme from '../../../themes';
 
 class ShowBrewery extends Component {
     static navigationOptions = ({navigation}) => ({
-        title: ('Blog details'),
+        title: ('Breweries details'),
         headerStyle: {
             backgroundColor: theme.colors.buttonColor,
         },
