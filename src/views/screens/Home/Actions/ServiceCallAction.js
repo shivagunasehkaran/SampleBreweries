@@ -2,7 +2,7 @@ import * as ActionTypes from './ActionTypes';
 import {connect} from 'react-redux';
 import axios from 'react-native-axios';
 import ServiceComponent from '../components/ServiceComponent';
-import constants from '../../../constants';
+import constants from '../../../../constants';
 
 const mapStateToProps = (state) => ({
     isLoading: state.serviceReducer.isLoading,

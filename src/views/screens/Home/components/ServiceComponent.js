@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {StyleSheet, View, ActivityIndicator, FlatList} from 'react-native';
 import {Icon} from 'react-native-vector-icons';
 import BlogsItem from './BlogsItem';
-import theme from '../../../themes';
+import theme from '../../../../themes';
 
 export default class ServiceComponent extends Component {
     constructor(props) {
